@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    color: black;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+}
+
+body.dark {
+    background: #000;
+    color: white;
+  }
+
+a {
+    color: #222222;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+.contenedor {
+    max-width: 10000px;
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+nav {
+    background: #0098F5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 15px 20px;
+    border-radius: 5px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+            box-shadow: 10px 10px 20px rgba(170, 170, 170, 0.16);
+}
+
+body.dark nav {
+    background: #0367A6;
+}
+
+body.dark nav a {
+    color: white;
+}
+
+
+  
+nav .logotipo {
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav .enlaces {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+nav .enlaces a {
+    margin-right: 40px;
+}
+  
+nav .enlaces a:hover {
+    color: #707070;
+}
+
+#contenido{
+    margin: 7px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#banner{
+    width: 100%;
+    height: 80px;
+    background-color: #0098F5;
+}
+
+#img_banner{
+    display: block;
+    width: 100%;
+    max-width: 794px;
+    min-width: 500px;
+}
+
+.switch {
+    background: #343D5B;
+    border-radius: 1000px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    outline: none;
+}
+  
+.switch::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #F1F1F1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    -webkit-transition: .3s ease all;
+    transition: .3s ease all;
+    -webkit-box-shadow: 0px 0px 2px 2px Orgba(0, 0, 0, 0.2);
+            box-shadow: 0px 0px 2px 2px Orgba(0, 0, 0, 0.2);
+}
+  
+.switch.active {
+    background: orange;
+    color: #000;
+}
+  
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+  
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #fff;
+}
