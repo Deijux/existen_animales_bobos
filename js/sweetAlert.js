@@ -1,6 +1,6 @@
 Swal.fire({
     title: 'Adverencia',
-    text: 'No se busca incitar al odio ni formar algun tipo de pelea, todo es con fines de entretenimiento.',
+    text: 'No se busca incitar al odio, todo es con fines de practicar mis conocimientos.',
     icon: 'info',
     confirmButtonText: 'Entendido',
     backdrop: true,
