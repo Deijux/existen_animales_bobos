@@ -178,6 +178,9 @@ nav .enlaces a:hover {
     .contenido {
         margin-left: 30px;
     }
+    .contenedor {
+        padding: 10px 0;
+    }
 }    
 
 @media (min-width: 768px) {
@@ -193,6 +196,9 @@ nav .enlaces a:hover {
     }
     .contenido {
         margin-left: 50px;
+    }
+    .contenedor {
+        padding: 10px 0;
     }
   }
 
@@ -210,6 +216,9 @@ nav .enlaces a:hover {
     .contenido {
         margin-left: 70px;
     }
+    .contenedor {
+        padding: 20px 0;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -225,5 +234,8 @@ nav .enlaces a:hover {
     }
     .contenido {
         margin-left: 90px;
+    }
+    .contenedor {
+        padding: 20px 0;
     }
 }
