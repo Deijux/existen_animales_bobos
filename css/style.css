@@ -154,10 +154,33 @@ nav .enlaces a:hover {
     color: #fff;
 }
 
-@media (max-width: 412px) {
+@media (min-width: 411px) {
     .yt {
         max-width: 330px;
         max-height: 230px;
     }
 }    
-    
+
+
+@media (min-width: 768px) {
+    .yt {
+      max-width: 530px;
+      max-height: 430px;
+    }
+  }
+
+
+@media (min-width: 992px) {
+  .yt {
+    max-width: 730px;
+    max-height: 630px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .yt {
+    max-width: 930px;
+    max-height: 830px;
+  }
+}
