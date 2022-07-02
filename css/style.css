@@ -185,6 +185,10 @@ nav .enlaces a:hover {
     nav {
         padding: 8px 10px;
     }
+    img {
+        width: 200px;
+        height: 190px;
+    }
 }
 
 @media (min-width: 374px) {
@@ -207,6 +211,10 @@ nav .enlaces a:hover {
     }
     nav {
         padding: 8px 10px;
+    }
+    img {
+        width: 200px;
+        height: 190px;
     }
 }
 
@@ -231,6 +239,10 @@ nav .enlaces a:hover {
     nav {
         padding: 8px 10px;
     }
+    img {
+        width: 240px;
+        height: 230px;
+    }
   }
 
 @media (min-width: 992px) {
@@ -254,6 +266,10 @@ nav .enlaces a:hover {
     nav {
         padding: 15px 20px;
     }
+    img {
+        width: 280px;
+        height: 270px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -276,5 +292,9 @@ nav .enlaces a:hover {
     }
     nav {
         padding: 15px 20px;
+    }
+    img {
+        width: 280px;
+        height: 270px;
     }
 }
