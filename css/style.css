@@ -30,6 +30,10 @@ a {
     font-weight: 500;
   }
 
+.contenido {
+    margin-left: 70px;
+}
+
 .contenedor {
     max-width: 10000px;
     width: 97%;
@@ -171,6 +175,9 @@ nav .enlaces a:hover {
     .logotipo, .enlaces {
         font-size: 14px;
     }
+    .contenido {
+        margin-left: 30px;
+    }
 }    
 
 @media (min-width: 768px) {
@@ -183,6 +190,9 @@ nav .enlaces a:hover {
     }
     .logotipo, .enlaces {
         font-size: 17px;
+    }
+    .contenido {
+        margin-left: 50px;
     }
   }
 
@@ -197,6 +207,9 @@ nav .enlaces a:hover {
     .logotipo, .enlaces {
         font-size: 20px;
     }
+    .contenido {
+        margin-left: 70px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -209,5 +222,8 @@ nav .enlaces a:hover {
     }
     .logotipo, .enlaces {
         font-size: 20px;
+    }
+    .contenido {
+        margin-left: 90px;
     }
 }
