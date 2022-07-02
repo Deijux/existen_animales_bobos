@@ -67,6 +67,9 @@ body.dark nav a {
 nav .logotipo {
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
+    border: 2px solid #00ccff;
+    border-radius: 10px;
+    background-color: #00ccff;
 }
 
 nav .enlaces {
@@ -79,6 +82,9 @@ nav .enlaces {
   }
   
 nav .enlaces a {
+    border: 2px solid #00ccff;
+    border-radius: 10px;
+    background-color: #00ccff;
     margin-right: 10px;
     text-shadow: #222222 ;
 }
@@ -159,28 +165,49 @@ nav .enlaces a:hover {
         max-width: 330px;
         max-height: 230px;
     }
+    body {
+        font-size: 14px;
+    }
+    .logotipo, .enlaces {
+        font-size: 14px;
+    }
 }    
-
 
 @media (min-width: 768px) {
     .yt {
       max-width: 530px;
       max-height: 430px;
     }
+    body {
+        font-size: 17px;
+    }
+    .logotipo, .enlaces {
+        font-size: 17px;
+    }
   }
-
 
 @media (min-width: 992px) {
   .yt {
     max-width: 730px;
     max-height: 630px;
   }
+    body {
+    font-size: 20px;
+    }
+    .logotipo, .enlaces {
+        font-size: 20px;
+    }
 }
-
 
 @media (min-width: 1200px) {
   .yt {
     max-width: 930px;
     max-height: 830px;
   }
+    body {
+    font-size: 23px;
+    }
+    .logotipo, .enlaces {
+        font-size: 20px;
+    }
 }
