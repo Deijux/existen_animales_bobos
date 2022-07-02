@@ -32,7 +32,7 @@ a {
 
 .contenedor {
     max-width: 10000px;
-    width: 90%;
+    width: 97%;
     margin: auto;
     padding: 20px 0;
   }
@@ -63,8 +63,6 @@ body.dark nav {
 body.dark nav a {
     color: white;
 }
-
-
   
 nav .logotipo {
     font-weight: 700;
@@ -81,7 +79,8 @@ nav .enlaces {
   }
   
 nav .enlaces a {
-    margin-right: 40px;
+    margin-right: 10px;
+    text-shadow: #222222 ;
 }
   
 nav .enlaces a:hover {
@@ -154,3 +153,11 @@ nav .enlaces a:hover {
     background: none;
     color: #fff;
 }
+
+@media (max-width: 412px) {
+    .yt {
+        max-width: 330px;
+        max-height: 230px;
+    }
+}    
+    
