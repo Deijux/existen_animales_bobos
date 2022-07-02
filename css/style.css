@@ -154,7 +154,7 @@ nav .enlaces a:hover {
     color: #fff;
 }
 
-@media (min-width: 411px) {
+@media (min-width: 374px) {
     .yt {
         max-width: 330px;
         max-height: 230px;
