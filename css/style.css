@@ -97,25 +97,6 @@ nav .enlaces a:hover {
     color: #707070;
 }
 
-#contenido{
-    margin: 7px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-#banner{
-    width: 100%;
-    height: 80px;
-    background-color: #0098F5;
-}
-
-#img_banner{
-    display: block;
-    width: 100%;
-    max-width: 794px;
-    min-width: 500px;
-}
-
 .switch {
     background: #343D5B;
     border-radius: 1000px;
@@ -164,6 +145,19 @@ nav .enlaces a:hover {
     color: #fff;
 }
 
+.indice {
+    margin-left: 50px;
+    padding-top: 10px;
+    border: #0367A6 solid 5px;
+    border-radius: 20px;
+    margin-right: 650px;
+    background-color: #0098F5;
+}
+
+.ind-titulo {
+    font-size: 20px
+}
+
 @media (max-width: 373px) {
     .yt {
         max-width: 330px;
@@ -188,6 +182,10 @@ nav .enlaces a:hover {
     img {
         width: 200px;
         height: 190px;
+    }
+    .indice {
+        margin-left: 10px;
+        margin-right: 150px;
     }
 }
 
@@ -216,6 +214,10 @@ nav .enlaces a:hover {
         width: 200px;
         height: 190px;
     }
+    .indice {
+        margin-left: 10px;
+        margin-right: 150px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -243,6 +245,11 @@ nav .enlaces a:hover {
         width: 240px;
         height: 230px;
     }
+    .indice {
+        margin-left: 20px;
+        margin-right: 450px;
+    }
+    
   }
 
 @media (min-width: 992px) {
@@ -270,6 +277,10 @@ nav .enlaces a:hover {
         width: 280px;
         height: 270px;
     }
+    .indice {
+        margin-left: 50px;
+        margin-right: 600px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -278,7 +289,7 @@ nav .enlaces a:hover {
     max-height: 830px;
   }
     body {
-    font-size: 23px;
+    font-size: 20px;
     }
     .logotipo, .enlaces {
         font-size: 20px;
@@ -296,5 +307,9 @@ nav .enlaces a:hover {
     img {
         width: 280px;
         height: 270px;
+    }
+    .indice {
+        margin-left: 50px;
+        margin-right: 600px;
     }
 }
