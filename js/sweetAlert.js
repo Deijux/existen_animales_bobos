@@ -1,8 +1,8 @@
 Swal.fire({
     title: 'Adverencia',
-    text: 'No se busca incitar al odio, todo es con fines de practicar mis conocimientos.',
+    html: 'No se busca <strong>incitar</strong> al odio. Todo es con fines de <strong>practicar</strong> mis conocimientos.',
     icon: 'info',
-    confirmButtonText: 'Entendido',
+    confirmButtonText:'<i class="fa fa-thumbs-up"></i> Entendido',
     backdrop: true,
     allowOutsideClick: false,
     allowEnterKey: true,
