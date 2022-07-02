@@ -52,7 +52,7 @@ nav {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 15px 20px;
+    padding: 8px 10px;
     border-radius: 5px;
     -webkit-transition: .3s ease all;
     transition: .3s ease all;
@@ -164,6 +164,29 @@ nav .enlaces a:hover {
     color: #fff;
 }
 
+@media (max-width: 373px) {
+    .yt {
+        max-width: 330px;
+        max-height: 230px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .logotipo, .enlaces {
+        font-size: 14px;
+    }
+    .contenido {
+        margin-left: 30px;
+        margin-right: 20px;
+    }
+    .contenedor {
+        padding: 10px 0;
+    }
+    nav {
+        padding: 8px 10px;
+    }
+}
+
 @media (min-width: 374px) {
     .yt {
         max-width: 330px;
@@ -182,7 +205,10 @@ nav .enlaces a:hover {
     .contenedor {
         padding: 10px 0;
     }
-}    
+    nav {
+        padding: 8px 10px;
+    }
+}
 
 @media (min-width: 768px) {
     .yt {
@@ -201,6 +227,9 @@ nav .enlaces a:hover {
     }
     .contenedor {
         padding: 10px 0;
+    }
+    nav {
+        padding: 8px 10px;
     }
   }
 
@@ -222,6 +251,9 @@ nav .enlaces a:hover {
     .contenedor {
         padding: 20px 0;
     }
+    nav {
+        padding: 15px 20px;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -241,5 +273,8 @@ nav .enlaces a:hover {
     }
     .contenedor {
         padding: 20px 0;
+    }
+    nav {
+        padding: 15px 20px;
     }
 }
